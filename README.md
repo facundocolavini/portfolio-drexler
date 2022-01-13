@@ -1,4 +1,4 @@
-# Worflow del team 
+# Workflow del team 
   Trabajo local 
 ```
  1 - Elegir que seccion hacer de la pagina.

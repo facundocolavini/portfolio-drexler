@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+#Worflow del team 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
+ 1 - Elegir que seccion hacer de la pagina.
+ 2 - Avisarle al compañero que seccion va a estar trabajando
+ 3 - Hacer pull antes de hacer cualquier cambio del repo remoto 
+ 4 - Crear una rama local sobre la seccion que se trabajara
+ 5 - Guardar cada cambio haciendo ej:git add archivos 
+ 6 - Realizar un commit con comentario en ingles ej: git commit -m "Adding styles on navbar component"
+ 7 - Realizar el push con git push.
 
-## Available Scripts
+ 
+```
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ # Merger
+   Si terminaste la seccion que estabas trabajando realizar los pasos para solicitar un pull request al dueño del repo 
+ ```
+  1 - Verificar que no tengas cambios en tu rama local en la cual trabajastes guardar todos los cambios y commitearlos para luego hacerles un push y subirlos.
+  2 - Pararte en la rama main con git checkout main 
+  3 - Una vez en main correr el comando git merge. Permite crear un nuevo commit con la combinación de dos ramas (la rama donde nos encontramos cuando ejecutamos el comando y la         rama que indiquemos después del comando),Ej: git checkout main git merge navbar.
+  4 - Eso genera un pull request en el repositorio donde yo voy a ver si esta todo ok para combinarlo con nuestra rama main.
+ ```

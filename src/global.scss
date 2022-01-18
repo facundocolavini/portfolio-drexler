@@ -1,0 +1,28 @@
+/* Variables */
+
+/* Colors*/
+
+$color-primary: #427BE8;
+$color-primary-light: #6998F1;
+$color-primary-dark: #2A529A;
+$color-secondary: #FDFDFD;
+$color-gray: #FCF9F9;
+$black: #000;
+$white: #fff;
+
+/* Gradients */
+$gradient-blue-light:linear-gradient(180deg, rgba(65, 128, 202, 0.5) 0%, rgba(132, 94, 194, 0.0109377) 94.17%, rgba(132, 94, 194, 0.0109377) 99.99%, rgba(132, 94, 194, 0) 100%) blur(300px);
+$gradient-purple-light:linear-gradient(180deg, rgba(132, 94, 194, 0.5) 0%, rgba(132, 94, 194, 0.0109377) 94.17%, rgba(132, 94, 194, 0.0109377) 99.99%, rgba(132, 94, 194, 0) 100%);
+/* Typography */
+$font-base:'Poppins', sans-serif;
+$font-base-regular: 400;
+$font-base-bold: 700;
+$font-base-semibold: 600;
+$font-base-extrabold: 800;
+
+/* Fonts size for Desktop */
+
+$font-size-h1: 50px;
+$font-size-h2: 40px;
+$font-size-text: 25px;
+$font-size-label:16px;

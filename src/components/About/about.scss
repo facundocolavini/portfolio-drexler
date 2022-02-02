@@ -1,0 +1,39 @@
+@import '../../global.scss';
+
+
+.about{
+    height: 50vh;
+    margin-top: 5rem;
+}
+.box-content-1{
+
+}
+.box-content-2{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: $font-size-text;
+}
+.about-title{
+    font-size: $font-size-h2;
+    font-weight: $font-base-extrabold;
+
+}
+.about-title--variant{
+    color: $color-primary-light;
+    
+}
+
+@media screen and (max-width: $screen-sm-min){
+    .about-title{
+        font-size: 30px;    
+        text-align: center;
+    }
+    .box-content-2{
+        font-size: 18px;
+        text-align: center;
+    }
+
+}
+    

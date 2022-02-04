@@ -4,6 +4,8 @@ import TopBar from './components/TopBar/TopBar'
 import Intro from './components/Intro/Intro'
 import About from './components/About/About'
 import './app.scss'
+import Slider from './components/Slider/Slider'
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <TopBar/>
       <Intro/>
       <About/>
+      <Slider />
     </div>
   );
 }

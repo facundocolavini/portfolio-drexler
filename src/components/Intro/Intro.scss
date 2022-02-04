@@ -7,7 +7,7 @@
         justify-content:space-between;
         height: 100vh;
         align-items: center;
-        @media screen and (max-width:992px) {
+        @media screen and (max-width:$screen-md-min) {
             flex-direction: column;
             align-items: center;
             justify-content: center;
@@ -16,7 +16,7 @@
         .Description{
             display: flex;
             flex-direction: column;
-            @media screen and (max-width:992px) {
+            @media screen and (max-width:$screen-md-min) {
                 
             }
             .title{
@@ -24,7 +24,7 @@
                 font-weight: 600;
                 font-size: 50px;
                 line-height: 65px;
-                @media screen and (max-width:992px) {
+                @media screen and (max-width:$screen-md-min) {
                     width: 250px;
                     margin-top: 20px;
                     font-size: 24px;
@@ -40,7 +40,7 @@
                 width: 380px;
                 font-weight: 400;
                 font-size: 25px;
-                @media screen and (max-width:992px) {
+                @media screen and (max-width:$screen-md-min) {
                     width: 200px;
                     font-size: 16px;
                     
@@ -61,9 +61,9 @@
         img {
             background: #689AF3;
             border-radius: 390.5px;
-            height: 547px;
-            @media screen and (max-width:992px) {
-                height: 250px;
+            height: 450px;
+            @media screen and (max-width:$screen-md-min) {
+                height: 230px;
                 margin-top: 30px;
                 
             }

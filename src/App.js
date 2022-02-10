@@ -5,6 +5,7 @@ import Intro from './components/Intro/Intro'
 import About from './components/About/About'
 import Slider from './components/Slider/Slider'
 import Technologies from './components/Technologies/Technologies'
+import Footer from './components/Footer/Footer'
 import './app.scss'
 
 
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <Slider />
       <Technologies/>
+      <Footer/>
     </div>
   );
 }

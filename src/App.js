@@ -3,7 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import TopBar from './components/TopBar/TopBar'
 import Intro from './components/Intro/Intro'
 import About from './components/About/About'
+import Slider from './components/Slider/Slider'
+import Technologies from './components/Technologies/Technologies'
+import Footer from './components/Footer/Footer'
 import './app.scss'
+
 
 function App() {
   return (
@@ -11,6 +15,9 @@ function App() {
       <TopBar/>
       <Intro/>
       <About/>
+      <Slider />
+      <Technologies/>
+      <Footer/>
     </div>
   );
 }

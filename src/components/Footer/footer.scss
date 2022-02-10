@@ -1,0 +1,58 @@
+@import '../../global.scss';
+
+.bkg-footer{
+    background-color: $color-primary-light;
+    margin-top: 40px;
+}
+.footer-title{
+    margin-top: 40px;
+    font-size: $font-size-text;
+    font-weight: $font-base-semibold;
+    color:$white;
+}
+
+.line-separator{
+    border-bottom: 0.5px solid $color-secondary;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.links-sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-footer{
+    text-decoration: none;
+    margin:14px;
+    color:$white;
+    font-size: $font-size-label;
+    font-weight: $font-base-label;
+}
+.link-footer:hover{
+    color:$color-primary-dark;
+    transition: color 0.4s ease-in-out;
+}
+.footer-rights{
+    margin-top: 40px;
+    font-size: $font-size-label;
+    font-weight: $font-base-label;
+    color:$white;
+}
+
+@media screen and (max-width: $screen-sm-min){
+    .links-sections {
+        flex-direction: column;
+    }
+
+    .link-footer{
+        font-size: 16px;    
+    }
+    .footer-title{
+        font-size:20px;
+        font-weight: $font-base-semibold;
+        color:$white;
+    }
+}

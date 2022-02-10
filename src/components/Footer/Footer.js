@@ -1,9 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
 import { Container, Row, Col } from "react-bootstrap/dist/react-bootstrap.min";
-=======
-import {Container, Row, Col, Link} from "react-bootstrap/dist/react-bootstrap.min";
->>>>>>> 9e499d7987de5565e0d163108cd52a7f9c5cd982
 import './footer.scss';
 
 const Footer = () => {

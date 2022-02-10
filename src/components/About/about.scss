@@ -1,18 +1,18 @@
 @import '../../global.scss';
 
-
 .about{
-    height: 50vh;
-    margin-top: 5rem;
-}
-.box-content-1{
-
-}
-.box-content-2{
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     width: 100%;
+}
+
+.text-about{
+    display: flex;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 2;
     font-size: $font-size-text;
 }
 .about-title{
@@ -30,10 +30,9 @@
         font-size: 30px;    
         text-align: center;
     }
-    .box-content-2{
-        font-size: 18px;
+    .text-about{
+        font-size: 20px;
         text-align: center;
     }
-
 }
     

@@ -5,7 +5,6 @@ import './topbar.scss';
 
 const TopBar = () => {
     return (
-
         <Navbar  expand="lg" className='navbar' variant="dark">
             <Container >
                 <Navbar.Brand> 
@@ -22,7 +21,6 @@ const TopBar = () => {
                 </Navbar.Collapse>
             </Container> 
         </Navbar>
- 
     )
 }
 

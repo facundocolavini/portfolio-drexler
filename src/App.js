@@ -5,6 +5,10 @@ import Intro from './components/Intro/Intro'
 import About from './components/About/About'
 import Slider from './components/Slider/Slider'
 import Technologies from './components/Technologies/Technologies'
+<<<<<<< HEAD
+=======
+import Footer from './components/Footer/Footer'
+>>>>>>> ac0801c7a11b4013e01b5a389f164bbb38022737
 import './app.scss'
 
 
@@ -16,6 +20,7 @@ function App() {
       <About/>
       <Slider />
       <Technologies/>
+      <Footer/>
     </div>
   );
 }

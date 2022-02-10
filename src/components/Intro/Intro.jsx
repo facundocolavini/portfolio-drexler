@@ -5,7 +5,7 @@ import React from 'react'
 
 function Intro() {
     return (
-        <div className='Intro d-flex justify-content-center'>
+        <div id="intro" className='Intro d-flex justify-content-center'>
             <div className='SubIntro container'>
                 <div className='Description'>
                     <h3 className='title'>Hola, Soy Drexler, <span className='back'>Desarrollador web</span></h3>

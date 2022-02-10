@@ -16,7 +16,7 @@ SwiperCore.use([Navigation]);
 
 const Slider = () => {
   return (
-    <div className='Slider'>
+    <div className='Slider' id="projects">
         <div className='left'>
             <div className="box-content-1">
                 <h2 className="about-title ">Mis</h2>

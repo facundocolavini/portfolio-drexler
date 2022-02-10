@@ -13,7 +13,7 @@ import './technologies.scss';
 
 const Technologies = () => {
   return (
-    <Container id="tools">
+    <Container id="tools" className="technologies">
         <Row className="text-center text-md-start mt-5 mb-4'">
             <Col xs={12} md={6}>
                 <h2 className="technologies-title">Tecnologías</h2>

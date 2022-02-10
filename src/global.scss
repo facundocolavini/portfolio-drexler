@@ -15,6 +15,7 @@ $gradient-blue-light:linear-gradient(180deg, rgba(65, 128, 202, 0.5) 0%, rgba(13
 $gradient-purple-light:linear-gradient(180deg, rgba(132, 94, 194, 0.5) 0%, rgba(132, 94, 194, 0.0109377) 94.17%, rgba(132, 94, 194, 0.0109377) 99.99%, rgba(132, 94, 194, 0) 100%);
 /* Typography */
 $font-base:'Poppins', sans-serif;
+$font-base-label:300;
 $font-base-regular: 400;
 $font-base-bold: 700;
 $font-base-semibold: 600;
@@ -26,3 +27,10 @@ $font-size-h1: 50px;
 $font-size-h2: 40px;
 $font-size-text: 25px;
 $font-size-label:16px;
+
+/* Breakpoint bootstrap  */
+$screen-xs-min: 480px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+$screen-xl-min: 1600px;

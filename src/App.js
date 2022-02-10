@@ -3,8 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import TopBar from './components/TopBar/TopBar'
 import Intro from './components/Intro/Intro'
 import About from './components/About/About'
-import './app.scss'
 import Slider from './components/Slider/Slider'
+import Technologies from './components/Technologies/Technologies'
+import './app.scss'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Intro/>
       <About/>
       <Slider />
+      <Technologies/>
     </div>
   );
 }

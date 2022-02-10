@@ -1,0 +1,70 @@
+@import '../../global.scss';
+
+
+.list-tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+
+  height: 100%;
+  position: relative;
+  .circle-border{
+    padding: 16px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    box-shadow: #427BE8 0px 0px 10px;
+  }
+  .circle-border:hover{
+    background: $color-primary-light;
+    transition: background-color 0.5s ease-in-out;
+  }
+  .tech-img{
+    object-fit: contain;
+    width: 61px;
+    height: 68px;
+  }
+}
+
+.technologies-title{
+  font-size: $font-size-h2;
+  font-weight: $font-base-extrabold;
+
+}
+.technologies-title--variant{
+  color: $color-primary-light;
+  margin-top: 0 !important;
+}
+
+
+@media screen and (max-width: $screen-sm-min){
+
+  .list-tech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;  
+    margin:16px 0 ;
+    height: 100%;
+    position: relative;
+    .circle-border{
+      padding: 13px;
+    }
+ 
+    .tech-img{
+      object-fit: contain;
+      width: 41px;
+      height: 48px;
+    }
+  }
+  .technologies-title{
+
+    font-size: 30px;    
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+}

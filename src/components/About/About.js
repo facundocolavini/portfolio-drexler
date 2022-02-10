@@ -5,7 +5,7 @@ import './about.scss';
 
 const About = () => {
   return (
-    <Container  id="about">
+    <Container id="about">
         <Row className=" about">
             <Col xs={12} md={6}>
                 <div className="box-content-1">

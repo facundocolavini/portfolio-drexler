@@ -2,7 +2,7 @@
 
 
 .about{
-    height: 50vh;
+    height: 60vh;
     margin-top: 4rem;
 }
 .box-content-1{
@@ -18,12 +18,10 @@
 .about-title{
     font-size: $font-size-h2;
     font-weight: $font-base-extrabold;
-
 }
 .about-title--variant{
     color: $color-primary-light;
     margin-top: 0 !important;
-    
 }
 
 @media screen and (max-width: $screen-sm-min){

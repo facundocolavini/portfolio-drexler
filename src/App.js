@@ -5,6 +5,7 @@ import Intro from './components/Intro/Intro'
 import About from './components/About/About'
 import './app.scss'
 import Slider from './components/Slider/Slider'
+import Form from './components/Form/Form'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Intro/>
       <About/>
       <Slider />
+      <Form />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-/* import {Container} from "react-bootstrap/dist/react-bootstrap.min" */
+import 'bootstrap/dist/js/bootstrap.min.js';
 import TopBar from './components/TopBar/TopBar'
 import Intro from './components/Intro/Intro'
 import About from './components/About/About'

@@ -3,9 +3,12 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import TopBar from './components/TopBar/TopBar'
 import Intro from './components/Intro/Intro'
 import About from './components/About/About'
-import './app.scss'
 import Slider from './components/Slider/Slider'
+import Technologies from './components/Technologies/Technologies'
+import Footer from './components/Footer/Footer'
 import Form from './components/Form/Form'
+import './app.scss'
+
 
 
 function App() {
@@ -15,7 +18,9 @@ function App() {
       <Intro/>
       <About/>
       <Slider />
+      <Technologies />
       <Form />
+      <Footer />
     </div>
   );
 }

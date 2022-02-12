@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bkg-footer ">
     <Container  bg={'blue'} id="contact">
-        <Row className="text-center mt-5">
+        <Row className="text-center">
             <Col xs={12} md={12}>
                 <p className="footer-title">Drexler Wilvins Sylvain</p>
             </Col>
